@@ -1,0 +1,55 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "buffers": {
+        "../../download/4wpq7h0ko5il/4wpq7h0ko5il": {
+            "byteLength": 0,
+            "type": "arraybuffer",
+            "uri": "../../download/4wpq7h0ko5il/4wpq7h0ko5il.bin"
+        }
+    },
+    "materials": {
+        "DefaultMaterial": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "nodes": {
+        "4wpq7h0ko5il.mdl": {}
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "4wpq7h0ko5il.mdl"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
