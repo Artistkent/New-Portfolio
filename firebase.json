@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "predeploy": "npx vite",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
