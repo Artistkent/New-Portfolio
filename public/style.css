@@ -30,8 +30,10 @@ canvas {
     position:absolute;
     top:0;
     left:0;
-	height:100%;
-	width:100%;
+	bottom:0;
+	right:0;
+	height:100vh;
+	width:100vw;
 
 }
 
@@ -304,18 +306,7 @@ padding-left:70px;
 padding-right:70px;
 }
 
-@media screen and (max-width:700px) {
-	
-	main section div:before{
-		margin-left:50px;
-	margin-right:50px;
-	}
 
-	main section div{
-		padding-left:10px;
-padding-right:10px;
-	}
-}
 
 main div p{
 	display:flex;
@@ -597,6 +588,21 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
   /*END OF MAIN*//*END OF MAIN*//*END OF MAIN*/
   /*END OF MAIN*//*END OF MAIN*//*END OF MAIN*/
 
+  @media screen and (max-width:700px) {
+	nav a p{
+		font-size:1.4rem;
+	}
+	
+	main section div:before{
+		margin-left:50px;
+	margin-right:50px;
+	}
+
+	main section div{
+		padding-left:10px;
+padding-right:10px;
+	}
+}
 
   @media screen and (max-width: 0px){
 
