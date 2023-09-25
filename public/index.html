@@ -45,24 +45,31 @@
 		  </div>
 
 		<section class="first_page" id="home">
+
+
 			<p class="type_text">Hello, I'm Collins, a Website Designer and Developer</p>
 			<button class="scroll_down button" onClick="document.getElementById('about').scrollIntoView();" type="button">
 				Welcome to My Portfolio <i class="fa-solid fa-arrow-down"></i>
 			</button>
 		</section>
 
-	<section class="second_page">
 		<nav id="navbar" class="navbar">
 
-<a href="#home"><p>Home</p></a>
-<a href="#about"><p>About</p></a>
-<a href="#projects"><p>Projects</p></a>
-<a href="#contact"><p>Contact</p></a>
+			<a href="#home"><p>Home</p></a>
+			<a href="#about"><p>About</p></a>
+			<a href="#projects"><p>Projects</p></a>
+			<a href="#contact"><p>Contact</p></a>
+			
+					</nav>
 
-		</nav>
+	<section class="second_page">
+		
 		
 		<div class="gap" id="about"></div>
-		<div  class="about" ><p>ABOUT</p>
+		
+		<div  class="about" >
+			<div class="glass_back"></div>
+			<p>ABOUT</p>
 			<p class="about_text">
 				Hi, I'm Collins, a Front End Developer / Mechanical Engineer <br><br>
 			  
@@ -71,7 +78,9 @@
 
 		<div class="gap" id="projects"></div>
 
-		<div  class="projects" ><p>PROJECTS</p>
+		<div  class="projects" >
+			<div class="glass_back"></div>
+			<p>PROJECTS</p>
 
 			  <div class="project_numero">
 				<p class="project_numero_title">T-Shirt Customiser</p>
@@ -122,7 +131,9 @@ Technologies:Node.js, React/Redux, RapidAPI, TailwindCSS.
 		</div>
 
 		<div class="gap" id="contact"></div>
-		<div  class="contact" ><p>CONTACT</p>
+		<div  class="contact" >
+			<div class="glass_back"></div>
+			<p>CONTACT</p>
 			<form name="contact" class="contact_form" method="post" data-netlify="true">
 				<label for="fname">Full Name</label>
 				<input type="text" id="fname" name="firstname" placeholder="Your full name.." required>
