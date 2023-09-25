@@ -1,3 +1,9 @@
+//navbar acrive link change
+$('nav a p').click(function(e) {
+  $('nav a p').removeClass('active_tab');
+  $(this).addClass('active_tab');
+});
+
 //from my other javascript file
 /*jQuery animate paragraph*/ 
 /* 1 */

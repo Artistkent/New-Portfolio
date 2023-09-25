@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rubik:ital@1&family=Varela+Round&display=swap" rel="stylesheet">
 
   <!--JQUERY-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -55,7 +58,7 @@
 
 		<nav id="navbar" class="navbar">
 
-			<a href="#home"><p>Home</p></a>
+			<a href="#home"><p class="active_tab">Home</p></a>
 			<a href="#about"><p>About</p></a>
 			<a href="#projects"><p>Projects</p></a>
 			<a href="#contact"><p>Contact</p></a>
@@ -69,7 +72,7 @@
 		
 		<div  class="about" >
 			<div class="glass_back"></div>
-			<p>ABOUT</p>
+			<p class="heading_title">ABOUT</p>
 			<p class="about_text">
 				Hi, I'm Collins, a Front End Developer / Mechanical Engineer <br><br>
 			  
@@ -80,7 +83,7 @@
 
 		<div  class="projects" >
 			<div class="glass_back"></div>
-			<p>PROJECTS</p>
+			<p class="heading_title">PROJECTS</p>
 
 			  <div class="project_numero">
 				<p class="project_numero_title">T-Shirt Customiser</p>
@@ -133,7 +136,7 @@ Technologies:Node.js, React/Redux, RapidAPI, TailwindCSS.
 		<div class="gap" id="contact"></div>
 		<div  class="contact" >
 			<div class="glass_back"></div>
-			<p>CONTACT</p>
+			<p class="heading_title">CONTACT</p>
 			<form name="contact" class="contact_form" method="post" data-netlify="true">
 				<label for="fname">Full Name</label>
 				<input type="text" id="fname" name="firstname" placeholder="Your full name.." required>
