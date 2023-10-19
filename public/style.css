@@ -349,15 +349,14 @@ main div p{
 	text-align:center;
 }
 
-.contact_form{
+.gform{
+
     position: relative;
     max-width: 820px;
     
     padding:20px;
    
  margin: auto;
- 
- margin:10px;
 
  margin-top: 10px;
     margin-bottom: 20px;
@@ -367,6 +366,14 @@ main div p{
     border:double 5px rgba(255, 255, 255);
     background-color: transparent;
    
+  }
+
+  .thankyou_message{
+    display:none; 
+    color:white;
+    margin:20px;
+    font-weight: 100;
+	margin:auto;
   }
 
 #subject{
