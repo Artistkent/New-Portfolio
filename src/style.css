@@ -230,6 +230,7 @@ nav a p{
 
 .project_numero_title{
 font-size:1.6rem;
+font-weight: 600;
 	padding:5px;
 
 }
@@ -622,7 +623,7 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
 
   @media screen and (max-width:700px) {
 	nav a p{
-		font-size:1.4rem;
+		font-size:1.1rem;
 	}
 
 	.second_page{
