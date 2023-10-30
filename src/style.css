@@ -153,6 +153,7 @@ position: absolute;
 	backdrop-filter: blur(1.5px);
 	-webkit-backdrop-filter: blur(1.5px);
 	border: 1px solid rgba(255, 255, 255, 1);
+/* From https://css.glass */
 
 	height:100%;
 	width:100%;
