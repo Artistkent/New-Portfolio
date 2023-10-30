@@ -420,8 +420,6 @@ input[type=text], input[type=email], input[type=tel], select, textarea {
   
   .submit_button:before{
 	content:none;
-	
-	
   }
   
 
